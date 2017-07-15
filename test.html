@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <style>
+        /*.overlay{*/
+            /*background-color: #000;*/
+            /*position: absolute;*/
+            /*top: 0;*/
+            /*left: 0;*/
+            /*width: 100%;*/
+            /*height: 100%;*/
+            /*opacity: 0.8;*/
+        /*}*/
+        #testimonial{
+            background-image: url(./images/testimonial-bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            position: relative;
+        }
+
+        .st-testimonials{
+            color: #e0e0e0;
+        }
+
+        .st-testimonials .st-border{
+            background-color: #e0e0e0;
+            margin: 20px auto;
+        }
+
+        .st-testimonials p{
+            font-style: italic;
+        }
+
+        .st-testimonials .client-info h5{
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .st-testimonials .client-info span{
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<section id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="overlay"></div>
+            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                <div class="st-testimonials">
+
+                    <div class="item active text-center">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolore nesciunt natus ullam possimus quas obcaecati suscipit voluptate facilis cum"</p>
+                        <div class="st-border"></div>
+                        <div class="client-info">
+                            <h5>Tom Roof</h5>
+                            <span>CEO of Domain.com</span>
+                        </div>
+                    </div>
+
+                    <div class="item text-center">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolore nesciunt natus ullam possimus quas obcaecati suscipit voluptate facilis cumconsectetur adipisicing elit. Amet dolore"</p>
+                        <div class="st-border"></div>
+                        <div class="client-info">
+                            <h5>Mustafiz</h5>
+                            <span>CEO of Domain.com</span>
+                        </div>
+                    </div>
+
+                    <div class="item text-center">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem autem possimus laborum, ducimus vel rerum asperiores delectus, suscipit voluptate mollitia, ullam perspiciatis voluptates!"</p>
+                        <div class="st-border"></div>
+                        <div class="client-info">
+                            <h5>Sean Hynes</h5>
+                            <span>CEO of Domain.com</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+jQuery(function($) {
+    (function () {
+        $(".st-testimonials").owlCarousel({
+            singleItem: true,
+            lazyLoad: true,
+            pagination: false,
+            navigation: false,
+            autoPlay: true,
+        });
+
+    }());
+});
+
+</script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script><!-- Owl-Carousel -->
+
+</body>
+</html>
