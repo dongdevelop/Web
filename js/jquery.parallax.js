@@ -11,7 +11,7 @@ http://www.opensource.org/licenses/mit-license.php
 http://www.gnu.org/licenses/gpl.html
 */
 
-(function( $ ){
+(function($){
 'use strict';
 	var $window = $(window);
 	var windowHeight = $window.height();

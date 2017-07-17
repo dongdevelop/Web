@@ -468,24 +468,50 @@
     </div>
 </section>
 
-<footer id="footer">
+<section id="contact">
     <div class="container">
         <div class="row">
-            <!-- SOCIAL ICONS -->
-            <div class="col-sm-6 col-sm-push-6 footer-social-icons">
-                <span>Follow us:</span>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-pinterest-p"></i></a>
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>Contact us</h1>
+                    <span class="st-border"></span>
+                </div>
             </div>
-            <!-- /SOCIAL ICONS -->
-            <div class="col-sm-6 col-sm-pull-6 copyright">
-                <p>&copy; 2015 <a href="">ShapedTheme</a>. All Rights Reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+            <div class="col-sm-4 contact-info">
+                <p class="contact-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatum dolorum, possimus tenetur pariatur officia, quo commodi autem doloribus vero rerum aspernatur quidem temporibus.</p>
+                <p class="st-address"><i class="glyphicon glyphicon-tag"></i> <strong>E71 8th Ave, New York NY 21001, US</strong></p>
+                <p class="st-phone"><i class="glyphicon glyphicon-flag"></i> <strong>+00 123-456-789</strong></p>
+                <p class="st-email"><i class="glyphicon glyphicon-plane"></i> <strong>email@yourdomain.com</strong></p>
+                <p class="st-website"><i class="glyphicon glyphicon-th-large"></i> <strong>www.yourdomain.com</strong></p>
+
+            </div>
+            <div class="col-sm-7 col-sm-offset-1">
+                <form action="php/send-contact.php" class="contact-form" name="contact-form" method="post">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" required="required" placeholder="Name*">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" required="required" placeholder="Email*">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="website" placeholder="Website">
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" required="required" cols="30" rows="7" placeholder="Message*"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="submit" name="submit" value="Send Message" class="btn btn-send">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-</footer>
+</section>
 
 <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script><!-- Owl-Carousel -->
