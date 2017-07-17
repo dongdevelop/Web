@@ -517,3 +517,26 @@ ul li{
     height: 100%;
     opacity: 0.8;
 }
+
+/*fun-facts*/
+#fun-facts{
+    background-color: #f5f5f5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#fun-facts .fun-fact{
+    border-right: 1px solid #ddd;
+}
+
+#fun-facts .col-md-3:last-child .fun-fact{
+    border-right: 0px solid #ddd;
+}
+
+#fun-facts .fun-fact i{
+    margin-right: 5px;
+}
+
+#fun-facts .fun-fact p{
+    font-size: 16px;
+}
